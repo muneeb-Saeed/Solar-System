@@ -1,0 +1,71 @@
+body{
+    /* background-image: url("./E2JS.gif"); */
+    background-image: url("./images/E2JS.gif");
+    background-repeat: round;
+    
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#results{
+    background-color:rgb(43, 41, 41);
+    opacity:0.5;
+    width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+
+}
+#result{
+    position: absolute;
+    background-color:rgb(161, 139, 139);
+    opacity: 0.6;
+    width: 450px;
+    height: 180px;
+    margin: 200px 480px ;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+   
+}
+ #startingPic{
+    margin-top: 54px;
+ } 
+ #planetImage{
+    float: left; 
+    margin-top: 50px;
+     margin-left: 50px;
+     
+ }
+ #resultOfPlanet{
+     text-align: center;
+     margin-top: 10px;
+     font-size: 30px;
+ }
+ #resultInCircle{
+    background-color:rgb(92, 85, 85);
+    opacity:0.5;
+    width: 100px;
+    height: 100px;
+    /* margin-top: 10px ; */
+    margin-left: 190px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: honeydew;
+    
+ }
+ #mass{
+    text-align: center;
+    margin: 0;
+    padding-top: 35px;
+ }
